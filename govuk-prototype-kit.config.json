@@ -1,0 +1,8 @@
+{
+  "nunjucksPaths": [
+    "/nunjucks"
+  ],
+  "sass": [
+    "/style/task-list-compoent.scss"
+  ]
+}
