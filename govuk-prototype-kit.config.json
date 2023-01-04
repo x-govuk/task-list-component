@@ -4,5 +4,12 @@
   ],
   "sass": [
     "/style/task-list-compoent.scss"
+  ],
+  "templates": [
+    {
+      "name": "Task list page",
+      "path": "/templates/task-list.html",
+      "type": "nunjucks"
+    }
   ]
 }
