@@ -1,4 +1,4 @@
-{% extends "govuk-prototype-kit/layouts/govuk-branded.html" %}
+{% extends "layouts/main.html" %}
 
 {% block pageTitle %}
   Task list template – {{ serviceName }} – GOV.UK Prototype Kit
@@ -8,7 +8,7 @@
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-l">Apply for a juggling licence</h1>
+      <h1 class="govuk-heading-l">{{ serviceName }}</h1>
 
       <section class="govuk-!-margin-bottom-8">
         <h2 class="govuk-heading-m">About you</h2>
@@ -16,17 +16,17 @@
         {{govukTaskList({
           items: [
             {
-              href: "/name",
+              href: "#",
               title: {
                 text: "Name and date of birth"
               },
               status: {
-                classes: "govuk-task-list__status--blue",
-                text: "Incomplete"
+                classes: "govuk-task-list__status--text-colour",
+                text: "Completed"
               }
             },
             {
-              href: "/contact details",
+              href: "#",
               title: {
                 text: "Contact details"
               },
@@ -45,7 +45,7 @@
         {{govukTaskList({
           items: [
             {
-              href: "/skills",
+              href: "#",
               title: {
                 text: "Skills and abilities"
               },
@@ -55,7 +55,7 @@
               }
             },
             {
-              href: "/tricks",
+              href: "#",
               title: {
                 text: "Tricks and routines"
               },
@@ -69,8 +69,8 @@
       </section>
 
       {{ govukButton({
-        text: "Review your application",
-        href: "/review"
+        text: "Review and submit your application",
+        href: "#"
       }) }}
     </div>
   </div>
