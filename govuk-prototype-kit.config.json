@@ -2,6 +2,12 @@
   "nunjucksPaths": [
     "/nunjucks"
   ],
+  "nunjucksMacros": [
+    {
+      "importFrom": "task-list-component/macro.njk",
+      "macroName": "govukTaskList"
+    }
+  ],
   "sass": [
     "/style/task-list-compoent.scss"
   ],
