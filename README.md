@@ -1,5 +1,10 @@
 # task-list-component
 
+> [!NOTE]
+> **This project has been archived**
+>
+> Use the [Task list component](https://design-system.service.gov.uk/components/task-list/) within the GOV.UK Design System instead
+
 ## Installation
 
 [Set up the GOV.UK Prototype Kit in the usual way](https://prototype-kit.service.gov.uk/docs/create-new-prototype) then install the task list component using:
